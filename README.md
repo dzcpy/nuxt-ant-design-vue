@@ -2,8 +2,6 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Circle CI][circle-ci-src]][circle-ci-href]
-[![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
 > Nuxt module for Ant Design Vue
@@ -50,12 +48,6 @@ Copyright (c) Anonymous <anonymous@test.com>
 
 [npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs-extra/ant-design-vue.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@nuxtjs-extra/ant-design-vue
-
-[circle-ci-src]: https://img.shields.io/circleci/project/github/https://github.com/dzcpy/nuxt-ant-design-vue.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/https://github.com/dzcpy/nuxt-ant-design-vue
-
-[codecov-src]: https://img.shields.io/codecov/c/github/https://github.com/dzcpy/nuxt-ant-design-vue.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/https://github.com/dzcpy/nuxt-ant-design-vue
 
 [license-src]: https://img.shields.io/npm/l/@nuxtjs-extra/ant-design-vue.svg?style=flat-square
 [license-href]: https://npmjs.com/package/@nuxtjs-extra/ant-design-vue
