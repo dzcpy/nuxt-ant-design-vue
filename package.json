@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-ant-design-vue",
+  "name": "@nuxt-extra/ant-design-vue",
   "version": "0.0.0",
   "description": "Nuxt module for Ant Design Vue",
   "repository": "https://github.com/dzcpy/nuxt-ant-design-vue",
