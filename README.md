@@ -1,4 +1,4 @@
-# nuxt-ant-design-vue
+﻿# @nuxtjs-extra/ant-design-vue
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -12,22 +12,22 @@
 
 ## Setup
 
-1. Add `nuxt-ant-design-vue` dependency to your project
+1. Add `@nuxtjs-extra/ant-design-vue` dependency to your project
 
 ```bash
-yarn add nuxt-ant-design-vue # or npm install nuxt-ant-design-vue
+yarn add @nuxtjs-extra/ant-design-vue # or npm install @nuxtjs-extra/ant-design-vue
 ```
 
-2. Add `nuxt-ant-design-vue` to the `modules` section of `nuxt.config.js`
+2. Add `@nuxtjs-extra/ant-design-vue` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    'nuxt-ant-design-vue',
+    '@nuxtjs-extra/ant-design-vue',
 
     // With options
-    ['nuxt-ant-design-vue', { /* module options */ }]
+    ['@nuxtjs-extra/ant-design-vue', { /* module options */ }]
   ]
 }
 ```
@@ -45,11 +45,11 @@ yarn add nuxt-ant-design-vue # or npm install nuxt-ant-design-vue
 Copyright (c) Anonymous <anonymous@test.com>
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-ant-design-vue/latest.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-ant-design-vue
+[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs-extra/ant-design-vue/latest.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@nuxtjs-extra/ant-design-vue
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-ant-design-vue.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-ant-design-vue
+[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs-extra/ant-design-vue.svg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@nuxtjs-extra/ant-design-vue
 
 [circle-ci-src]: https://img.shields.io/circleci/project/github/https://github.com/dzcpy/nuxt-ant-design-vue.svg?style=flat-square
 [circle-ci-href]: https://circleci.com/gh/https://github.com/dzcpy/nuxt-ant-design-vue
@@ -57,5 +57,5 @@ Copyright (c) Anonymous <anonymous@test.com>
 [codecov-src]: https://img.shields.io/codecov/c/github/https://github.com/dzcpy/nuxt-ant-design-vue.svg?style=flat-square
 [codecov-href]: https://codecov.io/gh/https://github.com/dzcpy/nuxt-ant-design-vue
 
-[license-src]: https://img.shields.io/npm/l/nuxt-ant-design-vue.svg?style=flat-square
-[license-href]: https://npmjs.com/package/nuxt-ant-design-vue
+[license-src]: https://img.shields.io/npm/l/@nuxtjs-extra/ant-design-vue.svg?style=flat-square
+[license-href]: https://npmjs.com/package/@nuxtjs-extra/ant-design-vue
