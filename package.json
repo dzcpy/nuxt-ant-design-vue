@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs-extra/ant-design-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Nuxt module for Ant Design Vue",
   "repository": "https://github.com/dzcpy/nuxt-ant-design-vue",
   "license": "MIT",
@@ -19,7 +19,10 @@
     "release": "npm test && standard-version && git push --follow-tags && npm publish",
     "test": "npm run lint && jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ant-design-vue": "^1.4.11",
+    "i": "^0.3.6"
+  },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
