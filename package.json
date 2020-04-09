@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs-extra/ant-design-vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nuxt module for Ant Design Vue",
   "repository": "https://github.com/dzcpy/nuxt-ant-design-vue",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "test": "npm run lint && jest"
   },
   "dependencies": {
-    "ant-design-vue": "^1.4.11",
+    "ant-design-vue": "^1.5.1",
     "i": "^0.3.6"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "codecov": "latest",
     "eslint": "latest",
     "jest": "latest",
-    "less": "^3.10.3",
+    "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "nuxt-edge": "latest",
     "standard-version": "latest"
