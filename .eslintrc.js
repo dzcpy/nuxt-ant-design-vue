@@ -5,6 +5,10 @@ module.exports = {
     sourceType: 'module'
   },
   extends: [
-    '@nuxtjs'
+    '@nuxtjs/eslint-config',
+    'prettier',
+    'prettier/vue',
+    'plugin:prettier/recommended',
+    'plugin:nuxt/recommended'
   ]
 }

@@ -1,41 +1,39 @@
 {
   "name": "@nuxtjs-extra/ant-design-vue",
-  "version": "0.0.6",
+  "version": "1.0.1",
   "description": "Nuxt module for Ant Design Vue",
   "repository": "https://github.com/dzcpy/nuxt-ant-design-vue",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "Anonymous <anonymous@test.com>"
-    }
-  ],
+  "contributors": [],
   "files": [
-    "lib"
+    "src"
   ],
-  "main": "lib/module.js",
-  "scripts": {
-    "dev": "nuxt example",
-    "lint": "eslint --ext .js,.vue example lib test",
-    "release": "npm test && standard-version && git push --follow-tags && npm publish",
-    "test": "npm run lint && jest"
-  },
+  "main": "src/module.js",
   "dependencies": {
-    "ant-design-vue": "^1.6.3"
+    "ant-design-vue": "^1.7.3",
+    "antd-dayjs-webpack-plugin": "^1.0.6"
+  },
+  "peerDependencies": {
+    "@nuxt/components": "^2.1.2",
+    "dayjs": "^1.10.4",
+    "less": "^3",
+    "less-loader": "^5"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "node scripts/extract.mjs"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "@nuxtjs/module-test-utils": "latest",
-    "babel-eslint": "latest",
-    "babel-jest": "latest",
-    "codecov": "latest",
-    "eslint": "latest",
-    "jest": "latest",
-    "less": "^2.7.3",
-    "less-loader": "^5.0.0",
-    "nuxt-edge": "latest",
-    "standard-version": "latest"
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.6.0",
+    "find-in-files": "^0.5.0",
+    "lodash": "^4.17.21",
+    "p-map": "^4.0.0",
+    "prettier": "^2.2.1",
+    "vue": "^2.6.12"
   },
   "publishConfig": {
     "access": "public"
