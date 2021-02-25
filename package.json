@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs-extra/ant-design-vue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nuxt module for Ant Design Vue",
   "repository": "https://github.com/dzcpy/nuxt-ant-design-vue",
   "license": "MIT",

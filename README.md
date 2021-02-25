@@ -74,7 +74,3 @@ Copyright (c) Anonymous <anonymous@test.com>
 [npm-downloads-href]: https://npmjs.com/package/@nuxtjs-extra/ant-design-vue
 [license-src]: https://img.shields.io/npm/l/@nuxtjs-extra/ant-design-vue.svg?style=flat-square
 [license-href]: https://npmjs.com/package/@nuxtjs-extra/ant-design-vue
-
-```
-
-```
